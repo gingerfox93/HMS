@@ -54,9 +54,9 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', '108.167.137.104'),
-            'database'  => env('DB_DATABASE', 'gfoxxyco_hms'),
-            'username'  => env('DB_USERNAME', 'gfoxxyco_hmsuser'),
+            'host'      => env('DB_HOST', '178.62.112.130'),
+            'database'  => env('DB_DATABASE', 'hms'),
+            'username'  => env('DB_USERNAME', 'hms_user'),
             'password'  => env('DB_PASSWORD', 'gRBkb0Ec#wkb'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
