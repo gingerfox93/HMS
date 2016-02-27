@@ -91,9 +91,10 @@
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
     
     <!-- DataTables -->
-        <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js">
+    <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js">
 
     <script type="text/javascript">
+    
     //Pass CSRF token to all ajax requests
     $.ajaxSetup({
        headers: { 'X-CSRF-Token' : $('meta[name=_token]').attr('content') }

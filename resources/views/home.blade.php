@@ -87,7 +87,7 @@
                         <tbody>
                             <tr class="active">
                                 <td>00000001</td>
-                                <td>Bromley Spelman</td>
+                                <td>Hayden Spelman</td>
                                 <td>4</td>
                                 <td>Stafford</td>
                                 <td>26 minutes ago</td>
