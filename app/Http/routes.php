@@ -29,9 +29,9 @@ Route::group(['middleware' => 'web'], function () {
 
     Route::get('/', 'HomeController@index');
 
-    Route::get('/profile', 'ProfileController@viewProfile');
+    //Route::get('/profile', 'ProfileController@viewProfile');
     
-    Route::get('/profile/{id}', 'ProfileController@viewProfile')->where('id', '[0-9]+');
+    //Route::get('/profile/{id}', 'ProfileController@viewProfile')->where('id', '[0-9]+');
     
     Route::post('/profile/search', 'ProfileController@SearchProfile');
 
@@ -39,5 +39,7 @@ Route::group(['middleware' => 'web'], function () {
 	    'anyData'  => 'datatables.data',
 	    'getIndex' => 'datatables',
 	]);
+
+	Route::resource('profile', 'ProfileController');
 
 });

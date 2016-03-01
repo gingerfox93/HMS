@@ -14,6 +14,7 @@
                         <dt>Created: </dt><dd>{{  \Carbon\Carbon::createFromTimeStamp(strtotime($profile->created_at))->diffForHumans() }}</dd>
                         <dt>Last Logged In: </dt><dd>{{  \Carbon\Carbon::createFromTimeStamp(strtotime($profile->updated_at))->diffForHumans() }}</dd>
                     </dl>
+                    {{link_to_route('profile.edit','Edit Profile', $profile->id)}}
                 </div>
             </div>
         </div>
